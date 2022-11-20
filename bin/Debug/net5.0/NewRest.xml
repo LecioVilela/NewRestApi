@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NewRest</name>
+    </assembly>
+    <members>
+        <member name="M:NewRest.Controllers.CalculatorController.GetSum(System.String,System.String)">
+             <summary>Rota para cálculo entre dois números.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar dois números para realizar uma adição.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.CalculatorController.GetMinus(System.String,System.String)">
+             <summary>Rota para cálculo entre dois números.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar dois números para realizar uma subtração.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.CalculatorController.GetDivision(System.String,System.String)">
+             <summary>Rota para cálculo entre dois números.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar dois números para realizar uma divisão.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.CalculatorController.GetMultiplication(System.String,System.String)">
+             <summary>Rota para cálculo entre dois números.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar dois números para realizar uma multiplicação.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.CalculatorController.GetSqrt(System.String)">
+             <summary>Rota para raiz quadrada de um número.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar um número para obter sua raiz quadrada.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.CalculatorController.GetMed(System.String,System.String)">
+             <summary>Rota para média entre dois valores.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar dois números para obter sua média.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.PersonController.GetPersonAll">
+             <summary>Rota para encontrar o cadastro de uma pessoa pelo seu id.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar o id desejado para a busca.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.PersonController.GetPerson(System.Int64)">
+             <summary>Rota para retornar o cadastro de todas as pessoas da base.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Apenas executar o endpoint.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.PersonController.CreatePessoa(NewRest.Model.Person)">
+             <summary>Rota para cadastrar uma pessoa na base.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar os dados necessários para cadastro.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.PersonController.UpdatePessoa(NewRest.Model.Person)">
+             <summary>Rota para atualizar uma pessoa na base.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar os desejados necessários para atualização.
+            </remarks>
+             <returns></returns>
+        </member>
+        <member name="M:NewRest.Controllers.PersonController.DeletePessoa(System.Int64)">
+             <summary>Rota para deletar uma pessoa na base.</summary>
+             <remarks>
+             ### Fluxo de Utilização da rota: ###
+                 - Informar os desejados necessários para exclusão.
+            </remarks>
+             <returns></returns>
+        </member>
+    </members>
+</doc>
